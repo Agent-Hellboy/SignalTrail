@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "signaltrail"
+version = "0.1.0"
+description = "Local-first iPhone network privacy audit proxy for macOS"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Prince Roshan" }]
+dependencies = []
+
+[project.scripts]
+signaltrail = "signaltrail.app:main"
